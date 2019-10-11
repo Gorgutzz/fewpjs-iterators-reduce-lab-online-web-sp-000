@@ -1,4 +1,7 @@
 const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
 
 // Code your solution here
-const totalBatteries = batteryBatches.reduce( (total, battery) => battery + total, 0)
+const totalBatteries = batteryBatches.reduce( (total, battery) {
+  return element + total
+}, 0) 
+}
