@@ -5,4 +5,4 @@ function totalBatteries(batteryBatches) {
   return batteryBatches.amount;
 }
 
-console.log(reduce(couponLocations, couponCounter, 0));
+console.log(reduce(batteryBatches, totalBatteries, 0));
